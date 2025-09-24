@@ -1,0 +1,7 @@
+.direnv/
+ghidra_project/
+__pycache__/
+.envrc
+tmp/
+binary/
+dataset/

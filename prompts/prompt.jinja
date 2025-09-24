@@ -1,0 +1,17 @@
+# This is the assembly code:
+{{ asm }}
+
+{%- if strings %}
+# Some const strings which may be used in this function:
+{% for k, v in strings.items() -%}
+{{ k }} = {{ v }}
+{% endfor -%}
+{%- endif -%}
+
+{%- if floats %}
+# Some const floats which may be used in this function:
+{% for k, v in floats.items() -%}
+{{ k }} = {{ v }}
+{% endfor -%}
+{%- endif %}
+# What is the source code?

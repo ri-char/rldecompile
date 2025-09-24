@@ -1,0 +1,6 @@
+{
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "standard",
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "python-envs.pythonProjects": []
+}

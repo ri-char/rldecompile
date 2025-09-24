@@ -1,0 +1,12 @@
+Here are some `c` functions from one program. Please merge them into one compilable c file.
+
+1. Do not add extra code.
+2. Include some necessary header files to make this code compilable.
+
+{% for k, v in func_decompiled_code.items() -%}
+function {{ k }}:
+```c
+{{ v }}
+```
+
+{% endfor -%}
